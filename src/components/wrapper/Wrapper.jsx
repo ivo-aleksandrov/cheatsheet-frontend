@@ -51,12 +51,14 @@ export default function Wrapper() {
       sideBar.classList.toggle("close");
     });
 
-    if (window.innerWidth < 1200) {
+    if (window.innerWidth < 768) {
+      sideBar.classList.toggle("close");
+    } else if (window.innerWidth > 576) {
       sideBar.classList.toggle("close");
     }
 
-    window.addEventListener("resize", () => {
-      if (window.innerWidth < 991) {
+    window.addEventListener("resize", function () {
+      if (this.innerWidth > 576) {
         sideBar.classList.toggle("close");
       }
     });
