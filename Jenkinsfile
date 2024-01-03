@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the Git repository
-                git credentialsId: 'github-credentials', url: 'https://github.com/ivo-aleksandrov/cheatsheet-frontend.git ', branch: 'master'
+                git credentialsId: 'github-credentials', url: 'https://github.com/ivo-aleksandrov/cheatsheet-frontend.git ', branch: 'main'
             }
         }
 
