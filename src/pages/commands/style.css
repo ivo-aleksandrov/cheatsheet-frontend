@@ -1,0 +1,117 @@
+.edit {
+  color: var(--dark);
+}
+
+.add-command {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.add-command input {
+  flex-grow: 1;
+  padding: 0 25px;
+  height: 100%;
+  border: none;
+  background: var(--light);
+  outline: none;
+  width: 100%;
+  color: var(--dark);
+}
+
+.edit-command {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.edit-command input {
+  flex-grow: 1;
+  padding: 0 25px;
+  height: 100%;
+  border: none;
+  background: var(--light);
+  outline: none;
+  width: 100%;
+  color: var(--dark);
+}
+
+.edit-category-btn {
+  background: var(--primary);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 13px;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.content main .bottom-data .commands {
+  flex-grow: 1;
+  flex-basis: 500px;
+  padding: 15px;
+}
+
+.content main .bottom-data .commands table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.content main .bottom-data .commands table th {
+  padding-bottom: 12px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.content main .bottom-data .commands table th:first-child {
+  padding-left: 20px;
+}
+
+.content main .bottom-data .commands table td {
+  padding: 16px 10px;
+}
+
+.content main .bottom-data .commands table tr td:first-child {
+  align-items: center;
+  padding-left: 16px;
+  border-left: 4px solid var(--primary);
+  border-right: 2px solid var(--grey);
+}
+
+.content main .bottom-data .commands table tr td:nth-child(2) {
+  border-right: 2px solid var(--grey);
+}
+
+.content main .bottom-data .commands table tr td:nth-child(3) {
+  width: 40px;
+  padding-left: 15px;
+  border-right: 2px solid var(--grey);
+}
+
+.content main .bottom-data .commands .add-command table tr td:nth-child(3) {
+  background: #436436;
+  color: white !important;
+}
+
+.content main .bottom-data .commands table tr td:nth-child(4) {
+  width: 40px;
+  padding-left: 15px;
+  border-right: 2px solid var(--grey);
+  background: #436436;
+  color: white !important;
+}
+
+.content main .bottom-data .commands table tbody tr {
+  background: var(--light);
+  transition: all 0.3s ease;
+  border-bottom: 3px solid var(--grey);
+}
+
+.content main .bottom-data .commands table tbody tr:last-child {
+  border-bottom: none;
+}
