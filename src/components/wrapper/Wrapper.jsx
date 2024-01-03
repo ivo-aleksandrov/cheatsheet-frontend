@@ -52,14 +52,16 @@ export default function Wrapper() {
     });
 
     if (window.innerWidth < 768) {
-      sideBar.classList.toggle("close");
+      sideBar.classList.add("close");
     } else if (window.innerWidth > 576) {
       sideBar.classList.remove("close");
     }
 
     window.addEventListener("resize", function () {
-      if (this.innerWidth > 576) {
-        sideBar.classList.toggle("close");
+      if (window.innerWidth < 768) {
+        sideBar.classList.add("close");
+      } else if (window.innerWidth > 576) {
+        sideBar.classList.remove("close");
       }
     });
 
