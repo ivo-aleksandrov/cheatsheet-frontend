@@ -49,30 +49,3 @@
   border-radius: 36px 0 0 36px;
   cursor: pointer;
 }
-
-@media screen and (max-width: 576px) {
-  .searchBar input {
-    display: none;
-  }
-
-  .searchBar button {
-    width: auto;
-    height: auto;
-    background: transparent;
-    color: var(--dark);
-    border-radius: none;
-  }
-
-  .searchBar input {
-    display: block;
-    width: 100%;
-  }
-
-  .searchBar button {
-    width: 36px;
-    height: 100%;
-    color: var(--light);
-    background: var(--danger);
-    border-radius: 0 36px 36px 0;
-  }
-}

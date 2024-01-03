@@ -275,37 +275,8 @@ body {
   color: var(--primary);
 }
 
-.content main .header .left .breadcrumb {
-  display: flex;
-  align-items: center;
-  grid-gap: 16px;
-}
-
-.content main .header .left .breadcrumb li {
+.content main .header .left p {
   color: var(--dark);
-}
-
-.content main .header .left .breadcrumb li a {
-  color: var(--dark-grey);
-  pointer-events: none;
-}
-
-.content main .header .left .breadcrumb li a.active {
-  color: var(--primary);
-  pointer-events: none;
-}
-
-.content main .header .report {
-  height: 36px;
-  padding: 0 16px;
-  border-radius: 36px;
-  background: var(--primary);
-  color: var(--light);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-gap: 10px;
-  font-weight: 500;
 }
 
 .content main .bottom-data {
