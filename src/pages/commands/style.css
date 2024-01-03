@@ -54,7 +54,7 @@
 .content main .bottom-data .commands {
   flex-grow: 1;
   flex-basis: 500px;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 .content main .bottom-data .commands table {
