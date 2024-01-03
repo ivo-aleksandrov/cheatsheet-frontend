@@ -54,7 +54,7 @@ export default function Wrapper() {
     if (window.innerWidth < 768) {
       sideBar.classList.toggle("close");
     } else if (window.innerWidth > 576) {
-      sideBar.classList.toggle("close");
+      sideBar.classList.remove("close");
     }
 
     window.addEventListener("resize", function () {

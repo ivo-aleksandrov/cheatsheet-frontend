@@ -63,7 +63,7 @@ body {
   display: none;
 }
 
-.sidebar.close {
+.sidebar .close {
   width: 60px;
 }
 
