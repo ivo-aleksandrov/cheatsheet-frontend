@@ -183,6 +183,7 @@ body {
 
 .content .nav {
   height: 56px;
+  width: 100%;
   background: var(--light);
   padding: 0 24px 0 0;
   display: flex;
@@ -190,7 +191,7 @@ body {
   grid-gap: 14px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 230px;
   z-index: 1000;
   color: var(--dark);
 }
@@ -213,18 +214,6 @@ body {
 .content .nav .bx.bx-menu {
   cursor: pointer;
   color: var(--dark);
-}
-
-.content .nav .profile {
-  color: white;
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary);
-  border-radius: 10px;
-  position: absolute;
-  right: 24px;
 }
 
 .content .nav .theme-toggle {
@@ -306,6 +295,11 @@ body {
     width: calc(100% - 60px);
     left: 200px;
   }
+
+  .content .nav {
+  left: 200px;
+}
+
 }
 
 @media screen and (max-width: 576px) {
