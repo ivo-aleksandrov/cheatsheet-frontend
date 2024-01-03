@@ -188,7 +188,7 @@ body {
   display: flex;
   align-items: center;
   grid-gap: 14px;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -309,23 +309,12 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .content .nav form.show ~ .profile {
-    display: none;
-  }
-
-  .content main .insights {
-    grid-template-columns: 1fr;
-  }
 
   .content main .bottom-data .header {
     min-width: 340px;
   }
 
   .content main .bottom-data .commands {
-    min-width: 340px;
-  }
-
-  .content main .bottom-data .reminders .task-list {
     min-width: 340px;
   }
 }
