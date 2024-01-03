@@ -94,12 +94,12 @@
 }
 
 .content main .bottom-data .commands .add-command table tr td:nth-child(3) {
-  background: #2BC016;
+  background: #32965D;
   color: white !important;
 }
 
 .content main .bottom-data .commands .edit-command table tr td:nth-child(3) {
-  background: #2BC016;
+  background: #32965D;
   color: white !important;
 }
 
@@ -107,7 +107,7 @@
   width: 40px;
   padding-left: 15px;
   border-right: 2px solid var(--grey);
-  background: #F8333C;
+  background: #EA3546;
   color: white !important;
 }
 
