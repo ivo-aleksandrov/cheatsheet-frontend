@@ -13,8 +13,7 @@ pipeline {
             steps {
                 // Build and push Docker image to a container registry (e.g., Docker Hub)
                 script {
-                        sh 'docker-compose -f /opt/cheatsheet/docker-compose.yml build frontend'
-                        sh 'docker-compose -f /opt/cheatsheet/docker-compose.yml push frontend'
+                        sh 'docker-compose -f /opt/cheatsheet/docker-compose.yml build --no-cache frontend'
                 }
             }
         }
@@ -23,7 +22,7 @@ pipeline {
             steps {
                 // Update the Docker container using the newly built image
                 script {
-                    sh 'docker-compose -f /opt/cheatsheet/docker-compose.yml up -d frontend'
+                    sh 'docker-compose -f /opt/cheatsheet/docker-compose.yml up --force-recreate --no-deps -d frontend'
                 }
             }
         }
