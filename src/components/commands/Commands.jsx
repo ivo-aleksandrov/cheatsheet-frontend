@@ -15,7 +15,6 @@ function Commands({ commandsValue, commandsPerPage, itemOffSet }) {
             <th></th>
           </tr>
         </thead>
-        <tbody></tbody>
         <tbody>
           {currentItems.map((command) => (
             <tr key={command.ID}>
