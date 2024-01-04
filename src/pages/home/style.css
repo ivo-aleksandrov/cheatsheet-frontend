@@ -268,13 +268,6 @@ body {
   color: var(--primary);
 }
 
-.content main .header .left h4 {
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: var(--dark);
-}
-
 .content main .header .left p {
   color: var(--dark);
   font-size: 12px;
@@ -282,11 +275,31 @@ body {
   text-transform: uppercase;
 }
 
-.content main .header .left span {
+.feature {
+  color: var(--dark);
+  margin-top: 5px;
+}
+
+.feature h4 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.feature span {
   color: var(--dark);
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.feature p {
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .content main .bottom-data {
