@@ -34,55 +34,55 @@
   font-size: 15px;
 }
 
-.content main .bottom-data .commands {
+.content main .commands {
   flex-grow: 1;
   flex-basis: 500px;
   padding-top: 15px;
 }
 
-.content main .bottom-data .commands table {
+.content main .commands table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.content main .bottom-data .commands table th {
+.content main .commands table th {
   padding-bottom: 12px;
   font-size: 13px;
   text-align: left;
 }
 
-.content main .bottom-data .commands table th:first-child {
+.content main .commands table th:first-child {
   padding-left: 20px;
 }
 
-.content main .bottom-data .commands table td {
+.content main .commands table td {
   padding: 16px 10px;
 }
 
-.content main .bottom-data .commands table tr td:first-child {
+.content main .commands table tr td:first-child {
   align-items: center;
   padding-left: 16px;
   border-left: 4px solid var(--primary);
   border-right: 2px solid var(--grey);
 }
 
-.content main .bottom-data .commands table tr td:nth-child(2) {
+.content main .commands table tr td:nth-child(2) {
   border-right: 2px solid var(--grey);
   word-break: break-word;
 }
 
-.content main .bottom-data .commands table tr td:nth-child(3) {
+.content main .commands table tr td:nth-child(3) {
   width: 40px;
   padding: 15px;
   border-right: 2px solid var(--grey);
 }
 
-.content main .bottom-data .commands .action table tr td:nth-child(3) {
+.content main .commands .action table tr td:nth-child(3) {
   background: #32965d;
   color: white !important;
 }
 
-.content main .bottom-data .commands table tr td:nth-child(4) {
+.content main .commands table tr td:nth-child(4) {
   width: 40px;
   padding: 15px;
   border-right: 2px solid var(--grey);
@@ -90,31 +90,44 @@
   color: white !important;
 }
 
-.content main .bottom-data .commands table tbody tr {
+.content main .commands table tbody tr {
   background: var(--light);
   transition: all 0.3s ease;
   border-bottom: 3px solid var(--grey);
 }
 
-.content main .bottom-data .commands table tbody tr:last-child {
+.content main .commands table tbody tr:last-child {
   border-bottom: none;
 }
 
+.content main .commands {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 24px;
+  width: 100%;
+  color: var(--dark);
+}
+
+.content main .commands > div {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 576px) {
-  .content main .bottom-data .commands .action table td {
+  .content main .commands .action table td {
     display: block;
     width: 100%;
     border-bottom: 2px solid var(--grey);
   }
 
-  .content main .bottom-data .commands .action table tr td:nth-child(2) {
+  .content main .commands .action table tr td:nth-child(2) {
     align-items: center;
     padding-left: 16px;
     border-left: 4px solid var(--primary);
     border-right: 2px solid var(--grey);
   }
 
-  .content main .bottom-data .commands .action table tr td:nth-child(3) {
+  .content main .commands .action table tr td:nth-child(3) {
     background: #32965d;
     color: white !important;
     width: 100%;
@@ -122,11 +135,11 @@
     text-align: center;
   }
 
-  .content main .bottom-data .commands table tr th {
+  .content main .commands table tr th {
     display: none;
   }
 
-  .content main .bottom-data .commands table tr td:nth-child(4) {
+  .content main .commands table tr td:nth-child(4) {
     width: 100%;
     background: #ea3546;
     color: white !important;

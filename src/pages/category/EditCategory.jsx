@@ -53,8 +53,8 @@ export default function EditCategory() {
           navigate(`/`);
           window.location.reload(false);
         } else {
-        console.error("Error adding category:", response.errorMessage);
-        setError(response.errorMessage);
+          console.error("Error adding category:", response.errorMessage);
+          setError(response.errorMessage);
         }
       })
       .catch((error) => {
@@ -86,51 +86,49 @@ export default function EditCategory() {
               <h1>Edit category: {form.categoryName}</h1>
             </div>
           </div>
-          <div className="bottom-data">
-            <div className="commands">
-              <div className="action">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>NAME</th>
-                      <th>ICON</th>
-                      <th></th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <input
-                          type="text"
-                          name="categoryName"
-                          onChange={handleInputChange}
-                          value={form.categoryName}
-                          placeholder="Enter name for category..."
-                        />
-                      </td>
-                      <td>
-                        <input
-                          type="text"
-                          name="icon"
-                          onChange={handleInputChange}
-                          value={form.icon}
-                          placeholder="Enter icon for category..."
-                        />
-                      </td>
-                      <td onClick={handleSubmit} className="edit-btn">
-                        <i className="bx bx-check"></i>
-                      </td>
-                      <td onClick={handleDelete} className="edit-btn">
-                        <i className="bx bxs-trash-alt"></i>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          <div className="commands">
+            <div className="action">
+              <table>
+                <thead>
+                  <tr>
+                    <th>NAME</th>
+                    <th>ICON</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        name="categoryName"
+                        onChange={handleInputChange}
+                        value={form.categoryName}
+                        placeholder="Enter name for category..."
+                      />
+                    </td>
+                    <td>
+                      <input
+                        type="text"
+                        name="icon"
+                        onChange={handleInputChange}
+                        value={form.icon}
+                        placeholder="Enter icon for category..."
+                      />
+                    </td>
+                    <td onClick={handleSubmit} className="edit-btn">
+                      <i className="bx bx-check"></i>
+                    </td>
+                    <td onClick={handleDelete} className="edit-btn">
+                      <i className="bx bxs-trash-alt"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-                <ErrorHandler error={error} />
-              </div>
+              <ErrorHandler error={error} />
             </div>
           </div>
         </main>

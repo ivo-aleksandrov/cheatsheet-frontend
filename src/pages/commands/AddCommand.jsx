@@ -51,44 +51,42 @@ export default function AddCommand() {
               <h1>Add command</h1>
             </div>
           </div>
-          <div className="bottom-data">
-            <div className="commands">
-              <div className="action">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>DESCRIPTION</th>
-                      <th>COMMAND</th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <input
-                          type="text"
-                          className="category-input"
-                          name="descriptionValue"
-                          onChange={handleInputChange}
-                          placeholder="Enter description for command..."
-                        />
-                      </td>
-                      <td>
-                        <input
-                          type="text"
-                          name="commandValue"
-                          onChange={handleInputChange}
-                          placeholder="Enter command..."
-                        />
-                      </td>
-                      <td onClick={handleSubmit} className="edit-btn">
-                        <i className="bx bx-check"></i>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+          <div className="commands">
+            <div className="action">
+              <table>
+                <thead>
+                  <tr>
+                    <th>DESCRIPTION</th>
+                    <th>COMMAND</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tbody>
+                  <tr>
+                    <td>
+                      <input
+                        type="text"
+                        className="category-input"
+                        name="descriptionValue"
+                        onChange={handleInputChange}
+                        placeholder="Enter description for command..."
+                      />
+                    </td>
+                    <td>
+                      <input
+                        type="text"
+                        name="commandValue"
+                        onChange={handleInputChange}
+                        placeholder="Enter command..."
+                      />
+                    </td>
+                    <td onClick={handleSubmit} className="edit-btn">
+                      <i className="bx bx-check"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </main>

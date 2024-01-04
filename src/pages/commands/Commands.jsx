@@ -54,14 +54,12 @@ export default function CommandsDetails() {
             <button className="edit-category-btn">EDIT CATEGORY</button>
           </NavLink>
           <SearchBar setResults={setCommands} id={id} />
-          <div className="bottom-data">
-            <div className="commands">
-              <Commands
-                commandsValue={commands}
-                commandsPerPage={commandsPerPage}
-                itemOffSet={commandsOffset}
-              />
-            </div>
+          <div className="commands">
+            <Commands
+              commandsValue={commands}
+              commandsPerPage={commandsPerPage}
+              itemOffSet={commandsOffset}
+            />
           </div>
           <Pagination
             itemsPerPage={commandsPerPage}

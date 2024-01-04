@@ -110,19 +110,6 @@ body {
   padding-left: 10px;
 }
 
-.content main .bottom-data {
-  display: flex;
-  flex-wrap: wrap;
-  grid-gap: 24px;
-  width: 100%;
-  color: var(--dark);
-}
-
-.content main .bottom-data > div {
-  overflow-x: auto;
-  margin-top: 20px;
-}
-
 @media screen and (max-width: 768px) {
   .content {
     width: calc(100% - 60px);
@@ -131,11 +118,11 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .content main .bottom-data .header {
+  .content main .header {
     min-width: 340px;
   }
 
-  .content main .bottom-data .commands {
+  .content main .commands {
     min-width: 340px;
   }
 }
