@@ -148,6 +148,48 @@
     text-align: center;
   }
 
+  .content main .bottom-data .commands .add-command table tr td:nth-child(2) {
+    align-items: center;
+    padding-left: 16px;
+    border-left: 4px solid var(--primary);
+    border-right: 2px solid var(--grey);
+  }
+
+  .content main .bottom-data .commands .add-command table tr td:nth-child(3) {
+    background: #32965d;
+    color: white !important;
+    width: 100%;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .content main .bottom-data .commands .edit-command table tr td:nth-child(2) {
+    align-items: center;
+    padding-left: 16px;
+    border-left: 4px solid var(--primary);
+    border-right: 2px solid var(--grey);
+  }
+
+  .content main .bottom-data .commands .edit-command table tr td:nth-child(3) {
+    background: #32965d;
+    color: white !important;
+    width: 100%;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .content main .bottom-data .commands .edit-category table tr {
+    display: none;
+  }
+
+  .content main .bottom-data .commands .edit-command table tr {
+    display: none;
+  }
+
+  .content main .bottom-data .commands .add-command table tr {
+    display: none;
+  }
+
   .content main .bottom-data .commands table tr td:nth-child(4) {
     width: 100%;
     background: #ea3546;
