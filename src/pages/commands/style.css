@@ -133,6 +133,18 @@
     border-bottom: 2px solid var(--grey);
   }
 
+  .content main .bottom-data .commands .add-command table td {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid var(--grey);
+  }
+
+  .content main .bottom-data .commands .edit-command table td {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid var(--grey);
+  }
+
   .content main .bottom-data .commands .edit-category table tr td:nth-child(2) {
     align-items: center;
     padding-left: 16px;
@@ -146,7 +158,6 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
-    margin-top: 15px;
   }
 
   .content main .bottom-data .commands .add-command table tr td:nth-child(2) {
@@ -162,7 +173,6 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
-    margin-top: 15px;
   }
 
   .content main .bottom-data .commands .edit-command table tr td:nth-child(2) {
@@ -178,7 +188,6 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
-    margin-top: 15px;
   }
 
   .content main .bottom-data .commands .edit-category table tr th {
