@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, NavLink, useLocation } from "react-router-dom";
 import Cookies from "js-cookie";
+import "./style.css";
 
 function getCookie(name) {
   let value = `; ${document.cookie}`;
