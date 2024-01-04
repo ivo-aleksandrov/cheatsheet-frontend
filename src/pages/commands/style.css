@@ -2,30 +2,13 @@
   color: var(--dark);
 }
 
-.add-command {
+.action {
   display: flex;
   align-items: center;
   margin-top: 40px;
 }
 
-.add-command input {
-  flex-grow: 1;
-  padding: 0 25px;
-  height: 100%;
-  border: none;
-  background: var(--light);
-  outline: none;
-  width: 100%;
-  color: var(--dark);
-}
-
-.edit-command {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.edit-command input {
+.action input {
   flex-grow: 1;
   padding: 0 25px;
   height: 100%;
