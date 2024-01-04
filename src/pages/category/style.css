@@ -1,7 +1,6 @@
 .action {
   display: flex;
   align-items: center;
-  height: 55px;
   margin-top: 40px;
 }
 
@@ -14,7 +13,6 @@
   outline: none;
   width: 100%;
   color: var(--dark);
-  border-left: 3px solid var(--primary);
 }
 
 .action button {
