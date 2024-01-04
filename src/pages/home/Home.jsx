@@ -8,7 +8,7 @@ export default function Dashboard() {
         <main>
           <div className="header">
             <div className="left">
-              <h1>Cheat Sheet asjkdhasjkdhaskjdhaskd</h1>
+              <h1>Cheat Sheet</h1>
               <br></br>
               <p>
                 This React App is a user-friendly and intuitive tool designed to
