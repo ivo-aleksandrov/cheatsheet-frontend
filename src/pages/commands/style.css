@@ -144,5 +144,15 @@
     background: #32965d;
     color: white !important;
     width: 100%;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .content main .bottom-data .commands table tr td:nth-child(4) {
+    width: 100%;
+    background: #ea3546;
+    color: white !important;
+    align-items: center !important;
+    text-align: center;
   }
 }
