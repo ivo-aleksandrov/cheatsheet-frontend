@@ -1,11 +1,11 @@
-.add-category {
+.action {
   display: flex;
   align-items: center;
   height: 55px;
   margin-top: 40px;
 }
 
-.add-category input {
+.action input {
   flex-grow: 1;
   padding: 0 25px;
   height: 100%;
@@ -17,7 +17,7 @@
   border-left: 3px solid var(--primary);
 }
 
-.add-category button {
+.action button {
   width: 200px;
   height: 100%;
   display: flex;
@@ -30,21 +30,4 @@
   outline: none;
   border-radius: 0 36px 36px 0;
   cursor: pointer;
-}
-
-.edit-category {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.edit-category input {
-  flex-grow: 1;
-  padding: 0 25px;
-  height: 100%;
-  border: none;
-  background: var(--light);
-  outline: none;
-  width: 50%;
-  color: var(--dark);
 }

@@ -53,7 +53,7 @@ export default function AddCommand() {
           </div>
           <div className="bottom-data">
             <div className="commands">
-              <div className="add-command">
+              <div className="action">
                 <table>
                   <thead>
                     <tr>

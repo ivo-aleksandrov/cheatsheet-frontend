@@ -56,7 +56,7 @@ export default function AddCategory() {
           </div>
           <div className="bottom-data">
             <div className="commands">
-              <div className="edit-category">
+              <div className="action">
                 <table>
                   <thead>
                     <tr>

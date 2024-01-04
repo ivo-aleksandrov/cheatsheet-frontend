@@ -85,7 +85,7 @@ export default function EditCommand() {
           </div>
           <div className="bottom-data">
             <div className="commands">
-              <div className="edit-command">
+              <div className="action">
                 <table>
                   <thead>
                     <tr>
