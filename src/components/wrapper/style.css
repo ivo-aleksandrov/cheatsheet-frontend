@@ -128,3 +128,65 @@
 .sidebar.close ~ .content .nav {
   left: 60px;
 }
+
+
+.nav {
+  height: 56px;
+  width: 100%;
+  background: var(--light);
+  padding: 0 24px 0 0;
+  display: flex;
+  align-items: center;
+  grid-gap: 14px;
+  position: fixed;
+  top: 0;
+  left: 230px;
+  z-index: 1000;
+  color: var(--dark);
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: -40px;
+  left: 0;
+  border-radius: 50%;
+  box-shadow: -20px -20px 0 var(--light);
+}
+
+.nav a {
+  color: var(--dark);
+}
+
+.nav .bx.bx-menu {
+  cursor: pointer;
+  color: var(--dark);
+}
+
+.nav .theme-toggle {
+  display: block;
+  min-width: 50px;
+  height: 25px;
+  background: var(--grey);
+  cursor: pointer;
+  position: relative;
+  border-radius: 25px;
+}
+
+.nav .theme-toggle::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: calc(25px - 4px);
+  background: var(--primary);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.nav #theme-toggle:checked + .theme-toggle::before {
+  left: calc(100% - (25px - 4px) - 2px);
+}
