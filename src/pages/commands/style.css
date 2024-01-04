@@ -146,6 +146,7 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
+    margin-top: 15px;
   }
 
   .content main .bottom-data .commands .add-command table tr td:nth-child(2) {
@@ -161,6 +162,7 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
+    margin-top: 15px;
   }
 
   .content main .bottom-data .commands .edit-command table tr td:nth-child(2) {
@@ -176,17 +178,18 @@
     width: 100%;
     align-items: center !important;
     text-align: center;
+    margin-top: 15px;
   }
 
-  .content main .bottom-data .commands .edit-category table tr {
+  .content main .bottom-data .commands .edit-category table tr th {
     display: none;
   }
 
-  .content main .bottom-data .commands .edit-command table tr {
+  .content main .bottom-data .commands .edit-command table tr th {
     display: none;
   }
 
-  .content main .bottom-data .commands .add-command table tr {
+  .content main .bottom-data .commands .add-command table tr th {
     display: none;
   }
 
