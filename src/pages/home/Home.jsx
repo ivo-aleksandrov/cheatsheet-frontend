@@ -9,56 +9,57 @@ export default function Dashboard() {
           <div className="header">
             <div className="left">
               <h1>Cheat Sheet</h1>
-              <div class="container">
-                <p>
-                  This React App is a user-friendly and intuitive tool designed
-                  to streamline the organization and management of categories
-                  and associated commands. This versatile application provides a
-                  robust platform for users to create, modify, and delete both
-                  categories and commands within those categories effortlessly.
-                </p>
+              <p>
+                This React App is a user-friendly and intuitive tool designed to
+                streamline the organization and management of categories and
+                associated commands. This versatile application provides a
+                robust platform for users to create, modify, and delete both
+                categories and commands within those categories effortlessly.
+              </p>
 
-                <h2>Key Features:</h2>
-                <ol>
-                  <li>
-                    Category Management: Users can create, rename, and delete
-                    categories.
-                  </li>
-                  <li>
-                    Command Creation and Editing: Add, edit, and delete commands
-                    within categories.
-                  </li>
-                  <li>
-                    User-Friendly Interface: Intuitive controls and navigation
-                    for easy use.
-                  </li>
-                  <li>
-                    Responsive Design: Ensures usability across various devices.
-                  </li>
-                  <li>
-                    Drag-and-Drop Functionality: Organize commands with ease.
-                  </li>
-                  <li>
-                    Error Handling and Confirmation: Prevent accidental data
-                    loss.
-                  </li>
-                  <li>
-                    Search and Filter: Find specific categories or commands
-                    quickly.
-                  </li>
-                  <li>
-                    Authentication and Security: Secure user data and
-                    operations.
-                  </li>
-                  <li>
-                    Undo and Redo Functionality: Provides a safety net for
-                    actions.
-                  </li>
-                  <li>
-                    Export and Import: Backup and transfer data effortlessly.
-                  </li>
-                </ol>
-              </div>
+              <h2>Key Features:</h2>
+              <ol>
+                <li>
+                  <span>Category Management:</span> Users can create, rename,
+                  and delete categories.
+                </li>
+                <li>
+                  <span>Command Creation and Editing:</span> Add, edit, and
+                  delete commands within categories.
+                </li>
+                <li>
+                  <span>User-Friendly Interface: </span>Intuitive controls and
+                  navigation for easy use.
+                </li>
+                <li>
+                  <span>Responsive Design: </span>Ensures usability across
+                  various devices.
+                </li>
+                <li>
+                  <span>Drag-and-Drop Functionality: </span>Organize commands
+                  with ease.
+                </li>
+                <li>
+                  <span>Error Handling and Confirmation: </span>Prevent
+                  accidental data loss.
+                </li>
+                <li>
+                  <span>Search and Filter: </span>Find specific categories or
+                  commands quickly.
+                </li>
+                <li>
+                  <span>Authentication and Security: </span>Secure user data and
+                  operations.
+                </li>
+                <li>
+                  <span>Undo and Redo Functionality: </span>Provides a safety
+                  net for actions.
+                </li>
+                <li>
+                  <span>Export and Import: </span>Backup and transfer data
+                  effortlessly.
+                </li>
+              </ol>
             </div>
           </div>
         </main>
