@@ -43,7 +43,7 @@
 .content main .bottom-data .commands table {
   width: 100%;
   border-collapse: collapse;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .content main .bottom-data .commands table th {
