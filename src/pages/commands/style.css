@@ -132,4 +132,17 @@
     width: 100%;
     border-bottom: 2px solid var(--grey);
   }
+
+  .content main .bottom-data .commands .edit-category table tr td:nth-child(2) {
+    align-items: center;
+    padding-left: 16px;
+    border-left: 4px solid var(--primary);
+    border-right: 2px solid var(--grey);
+  }
+
+  .content main .bottom-data .commands .edit-category table tr td:nth-child(3) {
+    background: #32965d;
+    color: white !important;
+    width: 100%;
+  }
 }
