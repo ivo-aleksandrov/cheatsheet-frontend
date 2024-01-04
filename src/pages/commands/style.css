@@ -127,7 +127,9 @@
 }
 
 @media screen and (max-width: 576px) {
-  .content main .bottom-data .commands table td {
+  .content main .bottom-data .commands .edit-category table td {
     display: block;
+    width: 100%;
+    border-bottom: 2px solid var(--grey);
   }
 }
