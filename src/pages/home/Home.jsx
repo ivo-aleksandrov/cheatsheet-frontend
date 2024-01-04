@@ -18,49 +18,19 @@ export default function Dashboard() {
                 categories and commands within those categories effortlessly.
               </p>
               <br></br>
-              <h3>Key Features:</h3>
-              <ul>
-                <li>
-                  <b>Category Management:</b> Users can create, rename,
-                  and delete categories.
-                </li>
-                <li>
-                  <b>Command Creation and Editing:</b> Add, edit, and
-                  delete commands within categories.
-                </li>
-                <li>
-                  <b>User-Friendly Interface: </b>Intuitive controls and
-                  navigation for easy use.
-                </li>
-                <li>
-                  <b>Responsive Design: </b>Ensures usability across
-                  various devices.
-                </li>
-                <li>
-                  <b>Drag-and-Drop Functionality: </b>Organize commands
-                  with ease.
-                </li>
-                <li>
-                  <b>Error Handling and Confirmation: </b>Prevent
-                  accidental data loss.
-                </li>
-                <li>
-                  <b>Search and Filter: </b>Find specific categories or
-                  commands quickly.
-                </li>
-                <li>
-                  <b>Authentication and Security: </b>Secure user data and
-                  operations.
-                </li>
-                <li>
-                  <b>Undo and Redo Functionality: </b>Provides a safety
-                  net for actions.
-                </li>
-                <li>
-                  <b>Export and Import: </b>Backup and transfer data
-                  effortlessly.
-                </li>
-              </ul>
+              <h4>Key Features:</h4>
+              <div class="feature">
+                <span>1. Category Management:</span>
+                <p>Users can create, rename, and delete categories.</p>
+              </div>
+              <div class="feature">
+                <span>2. Command Creation and Editing:</span>
+                <p>Add, edit, and delete commands within categories.</p>
+              </div>
+              <div class="feature">
+                <span>3. User-Friendly Interface:</span>
+                <p>Intuitive controls and navigation for easy use.</p>
+              </div>
             </div>
           </div>
         </main>
