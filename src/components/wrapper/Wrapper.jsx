@@ -94,7 +94,7 @@ export default function Wrapper() {
         <a href="/" className="logo">
           <i className="bx bxs-brain"></i>
           <div className="logo-name">
-            <span>Ch</span>Sheeet
+            <span>Ch</span>Sheet
           </div>
         </a>
         <ul className="side-menu">
